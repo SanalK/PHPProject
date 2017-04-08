@@ -1,4 +1,5 @@
 <?php // Example 26-6: checkuser.php
+// check user test modification 04/08
   require_once 'functions.php';
 
   if (isset($_POST['user']))
