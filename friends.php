@@ -1,5 +1,6 @@
 <?php
 // Example 26-10: friends.php
+// test
 require_once 'header.php';
 
 if (!$loggedin) die();
