@@ -8,6 +8,7 @@
 <h3>Setting up...</h3>
 
 <?php // Example 26-3: setup.php
+// testing branching
 require_once 'functions.php';
 
 createTable('members',
