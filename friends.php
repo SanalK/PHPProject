@@ -53,7 +53,7 @@ $friends   = FALSE;
 
 if (sizeof($mutual))
 {
-	echo "<span class='subhead'>$name2 mutual friends</span><ul>";
+	echo "<span class='subhead'>$name2 all existing mutual friends</span><ul>";
 	foreach($mutual as $friend)
 		echo "<li><a href='members.php?view=$friend'>$friend</a>";
 		echo "</ul>";
