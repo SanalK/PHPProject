@@ -1,10 +1,7 @@
 <?php
 // Example 26-10: friends.php
-<<<<<<< HEAD
 // test git branching
-=======
 // test
->>>>>>> refs/heads/minor
 require_once 'header.php';
 
 if (!$loggedin) die();
