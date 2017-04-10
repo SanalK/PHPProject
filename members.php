@@ -16,7 +16,7 @@ if (isset($_GET['view']))
 	echo "<h3>$name Profile</h3>";
 	showProfile($view);
 	echo "<a class='button' href='messages.php?view=$view'>" .
-	"View $name messages</a><br><br>";
+	"View $name short messages</a><br><br>";
 	die("</div></body></html>");
 }
 
@@ -37,7 +37,7 @@ elseif (isset($_GET['remove']))
 $result = queryMysql("SELECT user FROM members ORDER BY user");
 $num    = $result->num_rows;
 
-echo "<h3>Other Members</h3><ul>";
+echo "<h3>Other Members to be displayed here</h3><ul>";
 
 for ($j = 0 ; $j < $num ; ++$j)
 {
