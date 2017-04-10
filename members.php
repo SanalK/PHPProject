@@ -16,7 +16,7 @@ if (isset($_GET['view']))
 	echo "<h3>$name Profile</h3>";
 	showProfile($view);
 	echo "<a class='button' href='messages.php?view=$view'>" .
-	"View $name messages long and short</a><br><br>";
+	"View $name messages long and short and deep</a><br><br>";
 	die("</div></body></html>");
 }
 
